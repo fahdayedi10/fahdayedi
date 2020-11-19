@@ -9,6 +9,7 @@ header {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.562), rgb(255, 78, 78));
 }
 
+
 #logoBOX {
     width: 30%;
     height: 100%;
@@ -61,7 +62,7 @@ main {
     width: 100%;
     height: 450px;
     background-color: rgb(220, 237, 252);
-    border: 3px solid white;
+    border-top: 3px solid white;
     animation-name: change-background;
     animation-duration: 8s;
     animation-iteration-count: infinite;
@@ -173,6 +174,9 @@ footer{
     line-height: 50px;
     font-family: 'Source Code Pro', monospace;
 }
+footer{
+    margin: 3px 0px;
+}
 @media only screen and (min-width:940px) and (max-width:1070px) {
     #logoBOX {
         width: 35%;
@@ -280,10 +284,7 @@ nav li{
         margin-top: 10px;
         padding: 0px ;
     }
-    
-        footer{
-        margin: 5px 0px;
-    }
+
     
 }
 @media print{
