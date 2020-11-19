@@ -281,6 +281,9 @@ nav li{
         padding: 0px ;
     }
     
+        footer{
+        margin: 5px 0px;
+    }
     
 }
 @media print{
