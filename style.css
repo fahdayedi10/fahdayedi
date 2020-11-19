@@ -173,8 +173,6 @@ footer{
     color: white;
     line-height: 50px;
     font-family: 'Source Code Pro', monospace;
-}
-footer{
     margin-top: 3px;
 }
 @media only screen and (min-width:940px) and (max-width:1070px) {
